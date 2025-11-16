@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Add Japanese font support */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+body {
+  font-family: 'Noto Sans JP', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans JP', 'Helvetica Neue', Helvetica, Arial, serif;
+}
